@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D775F87620D2FF82006E9217 /* Triangle.m in Sources */ = {isa = PBXBuildFile; fileRef = D775F85620D2FF81006E9217 /* Triangle.m */; };
+		D775F87720D2FF82006E9217 /* DelaunayTriangulation.m in Sources */ = {isa = PBXBuildFile; fileRef = D775F85920D2FF82006E9217 /* DelaunayTriangulation.m */; };
+		D775F87820D2FF82006E9217 /* TrianglifyView.m in Sources */ = {isa = PBXBuildFile; fileRef = D775F85B20D2FF82006E9217 /* TrianglifyView.m */; };
+		D775F87920D2FF82006E9217 /* ColorPalette.m in Sources */ = {isa = PBXBuildFile; fileRef = D775F85E20D2FF82006E9217 /* ColorPalette.m */; };
+		D775F87A20D2FF82006E9217 /* ColorBrewer.m in Sources */ = {isa = PBXBuildFile; fileRef = D775F85F20D2FF82006E9217 /* ColorBrewer.m */; };
+		D775F87B20D2FF82006E9217 /* ColorPaletteView.m in Sources */ = {isa = PBXBuildFile; fileRef = D775F86520D2FF82006E9217 /* ColorPaletteView.m */; };
+		D775F87C20D2FF82006E9217 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D775F86620D2FF82006E9217 /* ViewController.m */; };
+		D775F87D20D2FF82006E9217 /* ControlPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = D775F86820D2FF82006E9217 /* ControlPanel.m */; };
+		D775F87E20D2FF82006E9217 /* PalettePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = D775F86920D2FF82006E9217 /* PalettePicker.m */; };
+		D775F87F20D2FF82006E9217 /* ControlSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = D775F86B20D2FF82006E9217 /* ControlSlider.m */; };
+		D775F88020D2FF82006E9217 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D775F86E20D2FF82006E9217 /* LaunchScreen.xib */; };
+		D775F88120D2FF82006E9217 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D775F86F20D2FF82006E9217 /* Images.xcassets */; };
+		D775F88320D2FF82006E9217 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D775F87320D2FF82006E9217 /* main.m */; };
+		D775F88420D2FF82006E9217 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D775F87420D2FF82006E9217 /* AppDelegate.m */; };
+		D775F88A20D30728006E9217 /* UIColor+Interpolation.m in Sources */ = {isa = PBXBuildFile; fileRef = D775F88920D30728006E9217 /* UIColor+Interpolation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D74B2A5C1AFBAC5200D3B254 /* Trianglify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trianglify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D775F85420D2FF81006E9217 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D775F85620D2FF81006E9217 /* Triangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Triangle.m; sourceTree = "<group>"; };
+		D775F85720D2FF81006E9217 /* DelaunayTriangulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelaunayTriangulation.h; sourceTree = "<group>"; };
+		D775F85820D2FF81006E9217 /* TrianglifyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrianglifyView.h; sourceTree = "<group>"; };
+		D775F85920D2FF82006E9217 /* DelaunayTriangulation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelaunayTriangulation.m; sourceTree = "<group>"; };
+		D775F85A20D2FF82006E9217 /* Triangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Triangle.h; sourceTree = "<group>"; };
+		D775F85B20D2FF82006E9217 /* TrianglifyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrianglifyView.m; sourceTree = "<group>"; };
+		D775F85E20D2FF82006E9217 /* ColorPalette.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorPalette.m; sourceTree = "<group>"; };
+		D775F85F20D2FF82006E9217 /* ColorBrewer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorBrewer.m; sourceTree = "<group>"; };
+		D775F86020D2FF82006E9217 /* ColorPalette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorPalette.h; sourceTree = "<group>"; };
+		D775F86120D2FF82006E9217 /* ColorBrewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorBrewer.h; sourceTree = "<group>"; };
+		D775F86320D2FF82006E9217 /* ControlPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControlPanel.h; sourceTree = "<group>"; };
+		D775F86420D2FF82006E9217 /* PalettePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PalettePicker.h; sourceTree = "<group>"; };
+		D775F86520D2FF82006E9217 /* ColorPaletteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorPaletteView.m; sourceTree = "<group>"; };
+		D775F86620D2FF82006E9217 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D775F86720D2FF82006E9217 /* ControlSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControlSlider.h; sourceTree = "<group>"; };
+		D775F86820D2FF82006E9217 /* ControlPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControlPanel.m; sourceTree = "<group>"; };
+		D775F86920D2FF82006E9217 /* PalettePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PalettePicker.m; sourceTree = "<group>"; };
+		D775F86A20D2FF82006E9217 /* ColorPaletteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorPaletteView.h; sourceTree = "<group>"; };
+		D775F86B20D2FF82006E9217 /* ControlSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControlSlider.m; sourceTree = "<group>"; };
+		D775F86C20D2FF82006E9217 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D775F86E20D2FF82006E9217 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		D775F86F20D2FF82006E9217 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D775F87020D2FF82006E9217 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D775F87220D2FF82006E9217 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D775F87320D2FF82006E9217 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D775F87420D2FF82006E9217 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D775F88820D30728006E9217 /* UIColor+Interpolation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Interpolation.h"; sourceTree = "<group>"; };
+		D775F88920D30728006E9217 /* UIColor+Interpolation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Interpolation.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D74B2A591AFBAC5200D3B254 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D74B2A531AFBAC5200D3B254 = {
+			isa = PBXGroup;
+			children = (
+				D775F85420D2FF81006E9217 /* README.md */,
+				D775F85C20D2FF82006E9217 /* Example */,
+				D775F85520D2FF81006E9217 /* Trianglify */,
+				D74B2A5D1AFBAC5200D3B254 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D74B2A5D1AFBAC5200D3B254 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D74B2A5C1AFBAC5200D3B254 /* Trianglify.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D775F85520D2FF81006E9217 /* Trianglify */ = {
+			isa = PBXGroup;
+			children = (
+				D775F85820D2FF81006E9217 /* TrianglifyView.h */,
+				D775F85B20D2FF82006E9217 /* TrianglifyView.m */,
+				D775F85720D2FF81006E9217 /* DelaunayTriangulation.h */,
+				D775F85920D2FF82006E9217 /* DelaunayTriangulation.m */,
+				D775F85A20D2FF82006E9217 /* Triangle.h */,
+				D775F85620D2FF81006E9217 /* Triangle.m */,
+				D775F88820D30728006E9217 /* UIColor+Interpolation.h */,
+				D775F88920D30728006E9217 /* UIColor+Interpolation.m */,
+			);
+			path = Trianglify;
+			sourceTree = "<group>";
+		};
+		D775F85C20D2FF82006E9217 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				D775F87120D2FF82006E9217 /* Main */,
+				D775F86220D2FF82006E9217 /* GUI */,
+				D775F85D20D2FF82006E9217 /* Colors */,
+				D775F86D20D2FF82006E9217 /* SupportingFiles */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		D775F85D20D2FF82006E9217 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				D775F86120D2FF82006E9217 /* ColorBrewer.h */,
+				D775F85F20D2FF82006E9217 /* ColorBrewer.m */,
+				D775F86020D2FF82006E9217 /* ColorPalette.h */,
+				D775F85E20D2FF82006E9217 /* ColorPalette.m */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		D775F86220D2FF82006E9217 /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				D775F86C20D2FF82006E9217 /* ViewController.h */,
+				D775F86620D2FF82006E9217 /* ViewController.m */,
+				D775F86320D2FF82006E9217 /* ControlPanel.h */,
+				D775F86820D2FF82006E9217 /* ControlPanel.m */,
+				D775F86720D2FF82006E9217 /* ControlSlider.h */,
+				D775F86B20D2FF82006E9217 /* ControlSlider.m */,
+				D775F86420D2FF82006E9217 /* PalettePicker.h */,
+				D775F86920D2FF82006E9217 /* PalettePicker.m */,
+				D775F86A20D2FF82006E9217 /* ColorPaletteView.h */,
+				D775F86520D2FF82006E9217 /* ColorPaletteView.m */,
+			);
+			path = GUI;
+			sourceTree = "<group>";
+		};
+		D775F86D20D2FF82006E9217 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				D775F86E20D2FF82006E9217 /* LaunchScreen.xib */,
+				D775F86F20D2FF82006E9217 /* Images.xcassets */,
+				D775F87020D2FF82006E9217 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		D775F87120D2FF82006E9217 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D775F87320D2FF82006E9217 /* main.m */,
+				D775F87220D2FF82006E9217 /* AppDelegate.h */,
+				D775F87420D2FF82006E9217 /* AppDelegate.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D74B2A5B1AFBAC5200D3B254 /* Trianglify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D74B2A7F1AFBAC5200D3B254 /* Build configuration list for PBXNativeTarget "Trianglify" */;
+			buildPhases = (
+				D74B2A581AFBAC5200D3B254 /* Sources */,
+				D74B2A591AFBAC5200D3B254 /* Frameworks */,
+				D74B2A5A1AFBAC5200D3B254 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Trianglify;
+			productName = Trianglify;
+			productReference = D74B2A5C1AFBAC5200D3B254 /* Trianglify.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D74B2A541AFBAC5200D3B254 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Alex Art";
+				TargetAttributes = {
+					D74B2A5B1AFBAC5200D3B254 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = D74B2A571AFBAC5200D3B254 /* Build configuration list for PBXProject "Trianglify" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D74B2A531AFBAC5200D3B254;
+			productRefGroup = D74B2A5D1AFBAC5200D3B254 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D74B2A5B1AFBAC5200D3B254 /* Trianglify */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D74B2A5A1AFBAC5200D3B254 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D775F88120D2FF82006E9217 /* Images.xcassets in Resources */,
+				D775F88020D2FF82006E9217 /* LaunchScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D74B2A581AFBAC5200D3B254 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D775F87E20D2FF82006E9217 /* PalettePicker.m in Sources */,
+				D775F87C20D2FF82006E9217 /* ViewController.m in Sources */,
+				D775F87B20D2FF82006E9217 /* ColorPaletteView.m in Sources */,
+				D775F87D20D2FF82006E9217 /* ControlPanel.m in Sources */,
+				D775F88A20D30728006E9217 /* UIColor+Interpolation.m in Sources */,
+				D775F87F20D2FF82006E9217 /* ControlSlider.m in Sources */,
+				D775F87720D2FF82006E9217 /* DelaunayTriangulation.m in Sources */,
+				D775F87620D2FF82006E9217 /* Triangle.m in Sources */,
+				D775F87A20D2FF82006E9217 /* ColorBrewer.m in Sources */,
+				D775F88420D2FF82006E9217 /* AppDelegate.m in Sources */,
+				D775F87820D2FF82006E9217 /* TrianglifyView.m in Sources */,
+				D775F88320D2FF82006E9217 /* main.m in Sources */,
+				D775F87920D2FF82006E9217 /* ColorPalette.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D74B2A7D1AFBAC5200D3B254 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D74B2A7E1AFBAC5200D3B254 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D74B2A801AFBAC5200D3B254 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Example/SupportingFiles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dev.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D74B2A811AFBAC5200D3B254 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Example/SupportingFiles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dev.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D74B2A571AFBAC5200D3B254 /* Build configuration list for PBXProject "Trianglify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D74B2A7D1AFBAC5200D3B254 /* Debug */,
+				D74B2A7E1AFBAC5200D3B254 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D74B2A7F1AFBAC5200D3B254 /* Build configuration list for PBXNativeTarget "Trianglify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D74B2A801AFBAC5200D3B254 /* Debug */,
+				D74B2A811AFBAC5200D3B254 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D74B2A541AFBAC5200D3B254 /* Project object */;
+}
